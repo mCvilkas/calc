@@ -1,0 +1,14 @@
+<p>Norim pasidaryti skaiciuokle su mygtukais nuo 0 iki 9 ir daugybos mygtuka *, kuris sudaugintu ivestus skaicius</p>
+1 2 3 4 5 6 7 8 9
+*
+=
+
+1. HTML mygtuku, nuo 1 iki9, taip pat * ir = mygtuku. OK
+
+2. reikalingas laukelis, kuriame atvaizduotume rezultata - ekranas. OK
+
+3. reikalinga funkcija JS, kuri paspaudus skaiciu parodytu ji ekrane.
+
+4. reikalinga funkcija JS, kuri issaugotu suvesta skaiciu ir isvalytu ekrana.
+kad galetume ivesti antra skaiciu.
+5. JS funkcija - sandaugai rodyti.
