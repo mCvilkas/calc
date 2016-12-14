@@ -12,5 +12,5 @@ console.log(pirmasDaug);
 };
 
 var rezultatas = function(){
-
+ekranas.value = pirmasDaug * ekranas.value;
 };
