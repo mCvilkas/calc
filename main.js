@@ -1,5 +1,13 @@
 var ekranas = document.getElementById('ekranas');
 var pirmasDaug;
+
+var duomenys = {
+  skaicius1: 100,
+  skaicius2: 200,
+  skaicius3: 333,
+  skaicius4: 555
+
+};
 var skaicius = function(skaitmuo) {
   ekranas.value += skaitmuo;
   console.log(ekranas.value);
@@ -14,3 +22,8 @@ console.log(pirmasDaug);
 var rezultatas = function(){
 ekranas.value = pirmasDaug * ekranas.value;
 };
+
+var sandauga = function() {
+  ekranas.value = duomenys.skaicius1 * duomenys.skaicius2;
+};
+sandauga();
