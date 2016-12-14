@@ -8,6 +8,11 @@ var duomenys = {
   skaicius4: 555
 
 };
+
+var duomenys2 = JSON.parse('{"skaicius1": 100, "skaicius2": 200, "skaicius3": 333, "skaicius4": 555}') ;
+
+console.log(duomenys2);
+
 var skaicius = function(skaitmuo) {
   ekranas.value += skaitmuo;
   console.log(ekranas.value);
